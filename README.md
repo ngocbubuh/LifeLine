@@ -7,9 +7,9 @@
 * An ASP.NET Core MVC Project to demonstrate First-Aid Support Application for Emergency Situation
 * A CI (Continuous Integration) script running on GitHub Actions
 
-#### This project proudly attended the Startup Pitching School's Competition 2023
+#### This project proudly attended the Startup Pitch School's Competition 2023
 * Deployed on Azure Web Service
-* Visit website [Lifeline First Aid Education](https://lifelineservice.azurewebsites.net/) here
+* Visit the website [Lifeline First Aid Education](https://lifelineservice.azurewebsites.net/) here
 
 ![Lifeline Website](https://github.com/ngocbubuh/LifeLine/blob/main/LifeLine/wwwroot/screenshot/Lifeline%20Website.png)
 
