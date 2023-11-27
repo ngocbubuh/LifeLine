@@ -9,7 +9,7 @@
 
 #### This project proudly attended the Startup Pitching School's Competition 2023
 * Deployed on Azure Web Service
-* Visit website [Lifeline Services](https://lifelineservice.azurewebsites.net/) here
+* Visit website [Lifeline First Aid Education](https://lifelineservice.azurewebsites.net/) here
 
 ![Lifeline Website](https://github.com/ngocbubuh/LifeLine/blob/main/LifeLine/wwwroot/screenshot/Lifeline%20Website.png)
 
