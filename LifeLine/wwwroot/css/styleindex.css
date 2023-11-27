@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat';
+}
+.header-IDSL {}
+.header-logo-IDSL{
+    text-align: center;
+    padding: 15px;
+}
+
+.header-logo-IDSL img {
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.5);
+}
+
+.header-logo-IDSL img {
+    width: 100%;
+}
+
+.header-title-IDSL{
+    display: flex;
+    align-items: center;
+}
+
+.header-title-IDSL h1 {
+    padding-left: 20px;
+}
+
+.header-noti-IDSL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-noti-IDSL img {
+    width: 30px;
+}
+
+.header-user-IDSL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-user-IDSL img {
+    width: 40px;
+}
+
+.header-none-IDSL {
+    display: none;
+}
+
+.content-title-IDSL h1 {
+    margin-top: 30px;
+}
+
+.course-item {
+    padding: 20px;
+}
+
+.course-box {
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.5);
+    padding: 15px;
+}
+
+.course-item img {
+    width: 100%;
+    padding-bottom: 17px;
+}
+
+.course-box {
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.course-box a {
+    background-color: rgb(12, 143, 0);
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 8px 14px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.course-box a:hover {
+    background-color: rgb(0, 81, 0);
+}
+
+.nav-item-IDSL {
+    padding: 0 30px;
+    font-weight: bolder;
+}
+
+.dropdown-menu {
+    z-index: 9999;
+}
+
+.nav-link.active:hover {
+    color: rgb(0, 141, 5);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: ghostwhite;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.Course-pic {
+    float: left;
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.Course-para {
+    height: 90px;
+    font-size: 17px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .header-logo-IDSL {
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+
+    .header-logo-IDSL img {
+        width: 100%;
+    }
+
+    .header-title-IDSL {
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .header-title-IDSL h1 {
+        padding-right: 30px;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .nav-item-IDSL {
+        padding: 10px 5px;
+    }
+
+    .header-noti-IDSL {
+        padding: 0;
+    }
+
+    .header-user-IDSL {
+        padding: 0;
+    }
+
+    .header-none-IDSL {
+        display: block;
+    }
+
+    .Course-pic {
+        float: left;
+        height: 100px;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .Course-para {
+        height: 129px;
+        font-size: 15px;
+        object-fit: cover;
+    }
+
+    .header-IDSL {
+        padding-bottom: 20px;
+    }
+    
+}

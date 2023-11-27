@@ -1,0 +1,64 @@
+﻿body {
+
+}
+
+.LL-Img {
+    float: left;
+    width:100%;
+    height: 450px;
+    object-fit: cover;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.LL-Name {
+    font-size:30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:forestgreen;
+    font-weight:bolder;
+    margin-bottom: 10px;
+}
+
+.LL-Content {
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.LL-Title {
+    font-size: 22px;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.LL-nav-menu {
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.5);
+    padding: 15px;
+    margin-top: 43px;
+}
+
+.LL-nav-menu-item {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+    .LL-nav-menu-item:hover {
+        background-color: rgb(255, 219, 225);
+        border-radius: 20px;
+    }
+
+.nav-menu-item {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body {
+    border: none;
+}
+
+.step-line {
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: justify;
+}

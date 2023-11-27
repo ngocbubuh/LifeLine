@@ -1,0 +1,87 @@
+﻿@page
+@model LifeLine.Pages.PrivacyModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-9 col-sm-12" style="margin-top: 40px">
+            @foreach(var obj in Model.FirstAidItemDetail)
+            {
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="LL-Img" src="./img/@obj.Image">
+                    </div>
+                    <div class="row">
+                        <p class="LL-Name">@obj.Name</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Title">@obj.TitleStatement</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Content">@obj.ContentStatement</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Title">@obj.TitleReason</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Content">@obj.ContentReason</p>
+                    </div>
+                    @if(obj.TitleSymtoms != null && obj.TitleSymtoms.Any())
+                    {
+                        <div class="row">
+                            <p class="LL-Title">@obj.TitleSymtoms</p>
+                        </div>
+                    }
+                    @if(obj.ContentSymtoms != null && obj.ContentSymtoms.Any())
+                    {
+                        <div class="row">
+                            <p class="LL-Content">@obj.ContentSymtoms</p>
+                        </div>
+                    }
+                    <div class="row">
+                        <p class="LL-Title">@obj.TitleConsc</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Content">@obj.ContentConsc</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Title">@obj.TitlePrevent</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Content">@obj.ContentPrevent</p>
+                    </div>
+                    <div class="row">
+                        <p class="LL-Title">@obj.TitleSTEP</p>
+                    </div>
+                </div>
+            }
+            <div class="container-fluid">
+                <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Các bước thực hiện đúng cách
+                </button>
+                <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <ul>
+                        @foreach(var obj in Model.Dropdown)
+                        {
+                            <li class="step-line">@obj.StepLine</li>
+                        }
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    <div class="col-md-3 col-sm-12">
+        <div class="container-fluid LL-nav-menu">
+            @foreach(var obj in Model.FirstAid)
+            {
+                <div class="row LL-nav-menu-item">
+                    <a class="nav-menu-item" href="Detail?DetailId=@obj.Id">@obj.Name</a>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

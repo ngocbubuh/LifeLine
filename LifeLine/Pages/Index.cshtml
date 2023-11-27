@@ -1,0 +1,31 @@
+﻿@page
+@model LifeLine.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class="row content-title-IDSL">
+        <h1 class="col-md-12 col-sm-12">Course</h1>
+    </div>
+
+    <div class="row">
+        @foreach(var obj in Model.FirstAid)
+        {
+            <div class="col-md-4 col-6 course-item">
+                <div class="course-box container-fluid">
+                    <div class="row">
+                        <img class="Course-pic" src="./img/@obj.Image" alt="course">
+                    </div>
+                    <div class="row">
+                        <p class="Course-para">@obj.Name</p>
+                    </div>
+                    <form asp-page="/Detail" method="get">
+                        <input type="hidden" name="DetailId" value="@obj.Id">
+                        <button type="submit" class="btn btn-success">Truy Cập</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div> 
+</div>
