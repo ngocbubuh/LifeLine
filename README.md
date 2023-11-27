@@ -5,9 +5,11 @@
 #### You will find in this repository the following stuff:
 
 * An ASP.NET Core MVC Project to demonstrate First-Aid Support Application for Emergency Situation
-* A CI (Continuos Intergration) script running on GitHub Actions
+* A CI (Continuous Integration) script running on GitHub Actions
 
 ### This project proudly attended the Startup Pitching Competition of HCMC 2023
+* Deployed on Azure Web Service
+* Visit website [Lifeline Services](https://lifelineservice.azurewebsites.net/) here
 
 ![Application Model interact with Azure using Entity Framework Core](https://github.com/ngocbubuh/LifeLine/blob/main/LifeLine/wwwroot/screenshot/ReadmeScreenshot.png)
 
